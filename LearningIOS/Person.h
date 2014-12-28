@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person2 : NSObject
+@interface Person : NSObject
+
+@property NSString *firstName;
+@property NSString *lastName;
+@property NSInteger age;
+
+-(instancetype)initWithName: (NSString*) name initWithLastName: (NSString*) lastName initWithAge: (NSNumber*) age;
 
 @end

@@ -6,8 +6,22 @@
 //  Copyright (c) 2014 Vi Tran. All rights reserved.
 //
 
-#import "Person2.h"
+#import "Person.h"
 
-@implementation Person2
+//Properties declared and custom class initialized with Lazy method in iOS
+
+@implementation Person
+
+-(instancetype)initWithName: (NSString*) name initWithLastName: (NSString*) lastName initWithAge: (NSNumber*) age{
+    self = [super init];
+    if (self) {
+        self.firstName = @"Vi";
+        self.lastName = @"Tran";
+        self.age = 27;
+    }
+    
+    
+    return self;
+}
 
 @end

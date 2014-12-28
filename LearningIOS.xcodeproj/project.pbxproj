@@ -15,6 +15,7 @@
 		CADAA8041A4FFFDD004268A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADAA8031A4FFFDD004268A4 /* Images.xcassets */; };
 		CADAA8071A4FFFDD004268A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADAA8051A4FFFDD004268A4 /* LaunchScreen.xib */; };
 		CADAA8131A4FFFDD004268A4 /* LearningIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAA8121A4FFFDD004268A4 /* LearningIOSTests.m */; };
+		CADAA8211A5008A6004268A4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAA8201A5008A6004268A4 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CADAA80C1A4FFFDD004268A4 /* LearningIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADAA8111A4FFFDD004268A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CADAA8121A4FFFDD004268A4 /* LearningIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningIOSTests.m; sourceTree = "<group>"; };
+		CADAA81F1A5008A6004268A4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CADAA8201A5008A6004268A4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				CADAA7F81A4FFFDD004268A4 /* AppDelegate.m */,
 				CADAA7FD1A4FFFDD004268A4 /* ViewController.h */,
 				CADAA7FE1A4FFFDD004268A4 /* ViewController.m */,
+				CADAA81F1A5008A6004268A4 /* Person.h */,
+				CADAA8201A5008A6004268A4 /* Person.m */,
 				CADAA8001A4FFFDD004268A4 /* Main.storyboard */,
 				CADAA8031A4FFFDD004268A4 /* Images.xcassets */,
 				CADAA8051A4FFFDD004268A4 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				CADAA7FC1A4FFFDD004268A4 /* LearningIOS.xcdatamodeld in Sources */,
 				CADAA7F91A4FFFDD004268A4 /* AppDelegate.m in Sources */,
+				CADAA8211A5008A6004268A4 /* Person.m in Sources */,
 				CADAA7FF1A4FFFDD004268A4 /* ViewController.m in Sources */,
 				CADAA7F61A4FFFDD004268A4 /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				CADAA8181A4FFFDD004268A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CADAA8191A4FFFDD004268A4 /* Build configuration list for PBXNativeTarget "LearningIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				CADAA81B1A4FFFDD004268A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
