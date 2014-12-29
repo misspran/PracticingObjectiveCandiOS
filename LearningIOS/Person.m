@@ -10,9 +10,7 @@
 
 //Properties declared and custom class initialized with Lazy method in iOS
 
-@interface Person
-@property (readonly) NSString *fullName;
-@end
+
 
 @implementation Person
 
