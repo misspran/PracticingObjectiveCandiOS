@@ -13,6 +13,7 @@
 @property NSString *firstName;
 @property NSString *lastName;
 @property NSInteger age;
+@property NSString *fullName;
 
 -(instancetype)initWithName: (NSString*) name initWithLastName: (NSString*) lastName initWithAge: (NSNumber*) age;
 

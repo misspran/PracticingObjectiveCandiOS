@@ -24,4 +24,10 @@
     return self;
 }
 
+- (NSString *)fullName{
+    if (!self.fullName) {
+        self.fullName = [[NSString alloc]init];
+    }
+    return self.fullName;
+}
 @end
