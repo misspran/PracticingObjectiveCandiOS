@@ -10,24 +10,28 @@
 
 //Properties declared and custom class initialized with Lazy method in iOS
 
+@interface Person
+@property (readonly) NSString *fullName;
+@end
+
 @implementation Person
 
 -(instancetype)initWithName: (NSString*) name initWithLastName: (NSString*) lastName initWithAge: (NSNumber*) age{
     self = [super init];
-    if (self) {
+    if (self != nil) {
         self.firstName = @"Vi";
         self.lastName = @"Tran";
         self.age = 27;
     }
     
-    
     return self;
 }
 
 - (NSString *)fullName{
-    if (!_fullName) {
-        _fullName = [[NSString alloc]init];
+    NSString *name = @"Waldo";
+    if (!self.fullName) {
+        name = @"Vi Tran";
     }
-    return _fullName;
+    return name;
 }
 @end
