@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    Person *person = [[Person alloc] initWithName:@"Tomasz" initWithLastName:@"Szulc" initWithAge:@24];
+    NSLog(@"%@", person.firstName);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

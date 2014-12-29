@@ -10,12 +10,13 @@
 
 @interface Person : NSObject
 
-@property NSString *firstName;
-@property NSString *lastName;
+@property (nonatomic, copy) NSString *firstName;
+@property (nonatomic, copy) NSString *lastName;
 @property NSInteger age;
 @property (readonly) NSString *fullName;
 
 
+- (instancetype)initWithName:(NSString *)name lastName:(NSString *)lastName age:(NSInteger)age;
 -(instancetype)initWithName: (NSString*) name initWithLastName: (NSString*) lastName initWithAge: (NSNumber*) age;
 
 @end
